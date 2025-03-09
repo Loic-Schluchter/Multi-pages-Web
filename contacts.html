@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Character encoding and viewport for responsiveness -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO metadata -->
+    <meta
+      name="description"
+      content="Get in touch with me via email or social media. Let's collaborate!"
+    />
+    <meta
+      name="keywords"
+      content="contact, web developer, email, collaboration, freelance"
+    />
+    <meta name="author" content="Loïc Schluchter" />
+    <meta name="robots" content="index, follow" />
+
+    <title>My multi-pages site</title>
+
+    <!-- Open Graph Meta Tags for better social media sharing -->
+    <meta property="og:title" content="My multi-pages site" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.example.com" />
+    <meta property="og:image" content="https://www.example.com/image.jpg" />
+    <meta property="og:description" content="Welcome to my awesome website!" />
+  </head>
+
+  <body>
+    <!-- Header section containing navigation and hero section -->
+    <header>
+      <h2>Loic Schluchter</h2>
+
+      <!-- Navigation menu -->
+      <nav>
+        <ul>
+          <li><a href="home.html" aria-label="Go to home">Home</a></li>
+          <li>
+            <a href="projects.html" aria-label="Go to projects">Projects</a>
+          </li>
+          <li>
+            <a href="articles.html" aria-label="Go to articles">Articles</a>
+          </li>
+          <li>
+            <a href="contacts.html" aria-label="Go to Contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Hero section introducing the site -->
+      <section id="hero">
+        <div class="hero-content">
+          <h1>Frontend Developer</h1>
+          <p>HTML only with proper layout, no styling</p>
+        </div>
+      </section>
+      <hr />
+    </header>
+    <main>
+      <!-- Contact form section -->
+      <section id="contact">
+        <div class="subheading">
+          <h2>Contacts</h2>
+        </div>
+        <div id="contact-form">
+          <form action="" method="post">
+            <!-- Name input field -->
+            <label for="name-text">Name :</label>
+            <input type="text" name="name" id="name-text" required />
+
+            <!-- Email input field -->
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" required /><br /><br />
+
+            <!-- Message input field (textarea) -->
+            <label for="message">Message :</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+
+            <!-- Submit button -->
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+      <hr />
+      <p>© 2025 Loïc Schluchter - All rights reserved.</p>
+    </footer>
+  </body>
+</html>
