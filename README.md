@@ -2,19 +2,11 @@
 > Basic HTML site for Roadmap.sh
 
 ## Table of Contents
-* [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [Setup](#setup)
 * [Site_URL](#site_url)
 * [Contact](#contact)
-
-## General Information
-- What problem does it (intend to) solve? To demonstrate knowledge of HTML and proper webpage HTML structure
-
-- What is the purpose of your project? To learn how to use HTML to structure a website, and be css ready.
-
-- Why did you undertake it? To further advance in the Roadmap.sh Frontend path, as well as practice the knowledge that I've gained
 
 ## Technologies Used
 - 1 - HTML 5
