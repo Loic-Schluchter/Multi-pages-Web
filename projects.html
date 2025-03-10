@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Metadata for character encoding and viewport settings for responsive design -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO metadata to improve visibility in search engines -->
     <meta
       name="description"
       content="Discover my latest projects, including web development and open-source contributions."
@@ -12,10 +15,13 @@
       content="web projects, frontend development, web applications, portfolio, HTML"
     />
     <meta name="author" content="Loïc Schluchter" />
+    <!-- This meta tag allows search engines to index the page and follow links -->
     <meta name="robots" content="index, follow" />
+
+    <!-- Title of the page, which appears in the browser tab -->
     <title>My multi-pages site</title>
 
-    <!-- Open Graph Meta Tags for Facebook -->
+    <!-- Open Graph Meta Tags for Facebook to enhance how the page is displayed when shared -->
     <meta property="og:title" content="My Web Projects" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.example.com/projects.html" />
@@ -30,50 +36,63 @@
   </head>
 
   <body>
+    <!-- Header section: contains the site's name and navigation links -->
     <header>
+      <!-- Main heading with the developer's name -->
       <h2>Loic Schluchter</h2>
+
+      <!-- Navigation bar with links to different pages -->
       <nav>
         <ul>
+          <!-- Links to different sections/pages of the website -->
           <li><a href="home.html" aria-label="Go to home">Home</a></li>
-          <li>
-            <a href="projects.html" aria-label="Go to projects">Projects</a>
-          </li>
-          <li>
-            <a href="articles.html" aria-label="Go to articles">Articles</a>
-          </li>
-          <li>
-            <a href="contacts.html" aria-label="Go to Contacts">Contacts</a>
-          </li>
+          <li><a href="projects.html" aria-label="Go to projects">Projects</a></li>
+          <li><a href="articles.html" aria-label="Go to articles">Articles</a></li>
+          <li><a href="contacts.html" aria-label="Go to Contacts">Contacts</a></li>
         </ul>
       </nav>
+
+      <!-- Hero section: an introductory area to describe what the website is about -->
       <section id="hero">
         <div class="hero-content">
           <h1>Frontend Developer</h1>
-          <p>html only with proper layout, no styling</p>
+          <p>HTML only with proper layout, no styling</p>
         </div>
       </section>
+
+      <!-- Horizontal rule separating the header from the rest of the content -->
       <hr />
     </header>
+
+    <!-- Main content area of the page -->
     <main>
+      <!-- Projects section that lists the developer's web development projects -->
       <section id="projects">
         <div class="subheading">
+          <!-- Subheading for the projects section -->
           <h3>Projects</h3>
         </div>
         <ul>
+          <!-- List of individual projects -->
           <li>
             <a
               href="https://github.com/Loic-Schluchter/CV-Roadmap"
               target="_blank"
-              >HTML only portfolio</a
             >
+              HTML only portfolio
+            </a>
           </li>
+          <!-- Additional project links (empty href for now) -->
           <li><a href="">Calculator</a></li>
           <li><a href="">Quiz app</a></li>
           <li><a href="">Countdown timer</a></li>
         </ul>
       </section>
     </main>
+
+    <!-- Footer section with copyright information -->
     <footer>
+      <!-- Horizontal rule to separate footer content -->
       <hr />
       <p>© 2025 Loïc Schluchter - All rights reserved.</p>
     </footer>
